@@ -11,6 +11,8 @@ public:
 
     bool load(std::string name);
 
+    bool save();
+
 private:
     int width, height, ; //larghezza,altezza
     int *buffer; //array che contiene per ogni cella tre numeri che rappresentano i colori dei pixel
