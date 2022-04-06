@@ -12,9 +12,10 @@ public:
     bool load(std::string name);
 
 private:
-    int width, height;
-    char *buffer;
+    int width, height, ; //larghezza,altezza
+    int *buffer; //array che contiene per ogni cella tre numeri che rappresentano i colori dei pixel
     std::string name;
+    char channels, depth;
 };
 
 
